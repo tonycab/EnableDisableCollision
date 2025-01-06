@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lc:LibraryCompiler xmlns:lc="urn:abb-robotics-robotstudio-librarycompiler"
+										xmlns="urn:abb-robotics-robotstudio-graphiccomponent"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:abb-robotics-robotstudio-librarycompiler file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202024%20SDK\LibraryCompilerSchema.xsd
+                                        urn:abb-robotics-robotstudio-graphiccomponent file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202024%20SDK\GraphicComponentSchema.xsd">
+	<lc:Library fileName="EnableDisableCollision.rslib">
+		<lc:DocumentProperties>
+			<lc:Author>alecabellec</lc:Author>
+			<lc:Image source="EnableDisableCollision.png"/>
+		</lc:DocumentProperties>
+		<SmartComponent name="EnableDisableCollision" icon="EnableDisableCollision.png"
+										codeBehind="EnableDisableCollision.CodeBehind,EnableDisableCollision.dll"
+										canBeSimulated="true">
+			<Properties>
+        <DynamicProperty name="Collision1" valueType="ABB.Robotics.RobotStudio.ProjectObject"></DynamicProperty>
+        <DynamicProperty name="Collision2" valueType="ABB.Robotics.RobotStudio.ProjectObject"></DynamicProperty>
+        <DynamicProperty name="Collision3" valueType="ABB.Robotics.RobotStudio.ProjectObject"></DynamicProperty>
+        <DynamicProperty name="Collision4" valueType="ABB.Robotics.RobotStudio.ProjectObject"></DynamicProperty>
+        <DynamicProperty name="Collision5" valueType="ABB.Robotics.RobotStudio.ProjectObject"></DynamicProperty>
+        <DynamicProperty name="Collision6" valueType="ABB.Robotics.RobotStudio.ProjectObject"></DynamicProperty>
+      </Properties>
+			<Bindings>
+			</Bindings>
+			<Signals>
+        <IOSignal name="ToolCollisionEnable" signalType="DigitalGroupInput"/> 
+			</Signals>
+			<GraphicComponents>
+			</GraphicComponents>
+			<Assets>
+				<Asset source="EnableDisableCollision.dll"/>
+			</Assets>
+		</SmartComponent>
+	</lc:Library>
+</lc:LibraryCompiler>
