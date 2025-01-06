@@ -17,17 +17,13 @@ Parametrer le composant :
 
 <!-- Capture -->
 <div align="center">
-  <a href="https://github.com/tonycab/AbbBackup">
-    <img src="Capture1.png" alt="Logo" width="400">
-  </a>
+    <img src="Images/Capture1.png" alt="Logo" width="400">
 </div>
 
 Relier les entrées sorties au composant :
 <!-- Capture -->
 <div align="center">
-  <a href="https://github.com/tonycab/AbbBackup">
-    <img src="Capture3.png" alt="Logo" width="400">
-  </a>
+    <img src="Images/Capture3.png" alt="Logo" width="800">
 </div>
 
 ## 3 - AMELIORATION A FAIRE
